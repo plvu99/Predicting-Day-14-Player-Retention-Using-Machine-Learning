@@ -2,7 +2,7 @@
 
 ## 🔎 Overview
 
-This project builds machine learning models to predict whether a mobile game player will return 14 days after installation using early gameplay behavior signals.
+This project builds **machine learning models** to predict **whether a mobile game player will return 14 days after installation** using early gameplay behavior signals.
 
 The goal is to help game teams detect high-risk churn early, personalize player experiences, and design targeted retention strategies that improve long-term engagement and revenue.
 
@@ -28,7 +28,7 @@ A predictive retention model enables teams to prioritize resources toward player
 The dataset contains 42K+ player records capturing gameplay behavior and contextual attributes from a mobile game.
 
 ### Target variable
-- retention_14 — whether a player returns to the game 14 days after installation.
+- **retention_14** — whether a player returns to the game 14 days after installation.
 - This is a key metric in mobile games and a strong indicator of long-term engagement and player lifetime value. 
 
 ### Key feature categories
@@ -70,9 +70,9 @@ The dataset was split into training and test sets, and models were evaluated usi
 
 ### 4. Model Evaluation
 
-Logistic Regression: F1 Score = 0.548
-Random Forest: F1 Score =	0.571
-XGBoost: F1 Score = 0.619
+- Logistic Regression: F1 Score = 0.548
+- Random Forest: F1 Score =	0.571
+- **XGBoost: F1 Score = 0.619**
 
 XGBoost achieved the best performance and was selected as the final model.
 
@@ -80,11 +80,13 @@ XGBoost achieved the best performance and was selected as the final model.
 
 Feature importance from the XGBoost model was analyzed to identify key behavioral signals driving retention predictions.
 
+<img width="790" height="590" alt="image" src="https://github.com/user-attachments/assets/025c78fc-20bb-4d9b-bb0e-fff4593e69d2" />
+
 ### 6. Future Data Prediction
 
 The final model was applied to a new unseen dataset to simulate predicting retention for future players, ensuring the model generalizes beyond the training data.
 
-Here is the prediction result.
+Here is the [prediction result](https://github.com/plvu99/Predicting-Day-14-Player-Retention-Using-Machine-Learning/blob/main/day14_retention_predictions.csv).
 
 ## 🔑 Key Insights
 
