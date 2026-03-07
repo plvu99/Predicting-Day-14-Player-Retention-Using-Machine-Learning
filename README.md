@@ -86,7 +86,7 @@ Feature importance from the XGBoost model was analyzed to identify key behaviora
 
 The final model was applied to a new unseen dataset to simulate predicting retention for future players, ensuring the model generalizes beyond the training data.
 
-Here is the [prediction result](https://github.com/plvu99/Predicting-Day-14-Player-Retention-Using-Machine-Learning/blob/main/day14_retention_predictions.csv).
+Here is the [prediction result](https://github.com/plvu99/Predicting-Day-14-Player-Retention-Using-Machine-Learning/blob/main/day14_player_retention_predictions.csv).
 
 ## 🔑 Key Insights
 
