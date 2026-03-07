@@ -137,6 +137,6 @@ Since retention varies by acquisition source:
 - Tailor onboarding experiences based on player demographics
 
 ## ⚙ Tools & Technologies
-- Python (Pandas, NumPy, Scikit-learn, XGBoost)
-- Modeling (Logistic Regression, Random Forest, Gradient Boosting (XGBoost))
+- Python (Pandas, NumPy, Scikit-learn)
+- Modeling (Logistic Regression, Random Forest, XGBoost)
 - Jupyter Notebook/Google Colab
