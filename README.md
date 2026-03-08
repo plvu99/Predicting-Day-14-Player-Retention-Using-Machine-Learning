@@ -70,9 +70,11 @@ The dataset was split into training and test sets, and models were evaluated usi
 
 ### 4. Model Evaluation
 
-- Logistic Regression: F1 Score = 0.548
-- Random Forest: F1 Score =	0.571
-- **XGBoost: F1 Score = 0.619**
+| Model               | F1 Score  |
+| ------------------- | --------- |
+| Logistic Regression | 0.548     |
+| Random Forest       | 0.571     |
+| **XGBoost**         | **0.619** |
 
 XGBoost achieved the best performance and was selected as the final model.
 
