@@ -136,7 +136,7 @@ Since retention varies by acquisition source:
 - Reduce investment in low-quality acquisition sources
 - Tailor onboarding experiences based on player demographics
 
-## ⚙ Tools & Technologies
+## ⚙ Tools & Techniques
 - Python (Pandas, NumPy, Scikit-learn)
 - Modeling (Logistic Regression, Random Forest, XGBoost)
 - Jupyter Notebook/Google Colab
